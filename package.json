@@ -1,0 +1,9 @@
+{
+  "name": "lab2-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "node --test index.test.js backend/sync.test.js backend/register.test.js frontend/dashboard.test.js",
+    "lint": "node --check index.js && node --check backend/sync.js && node --check backend/register.js && node --check frontend/dashboard.js"
+  }
+}
